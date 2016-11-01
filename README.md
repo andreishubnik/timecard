@@ -1,17 +1,18 @@
 
-###Timecard
+### Timecard
 
-##Capabilities:
-* Individual tracking employee time;
-* Registration of hospital, vacations, business trips and other events;
-* Report on the employee for a specified period (day, week, month, year);
-* Indication of finding employees in office (possibility of filtering);
-* Administrator can edit employee data (full name, identity document, birthdate, grade, department, etc.);
-* Administrator can edit employee attendance;
-* API for entry/departure registration through the cards.
+## Capabilities
 
-##Feature:
-* Event registration, such as a lunch break, a local trip, etc.
-* Notification of absence in the office after a specified time (SMS, mail, telegrams, etc.);
-* API for entry entry/departure through the camera;
-* Sending events when entering/departuring employee.
+# Common
+* Individual tracking time;
+* Edit employee tracking time;
+* API for entry entry/departure;
+* Indication of finding employees in office (possibility of filtering).
+
+# Administrator
+* Report for a specified period (day, week, month, year) with unloading in file;
+* Edit employee data (full name, identity document, location);
+* Add, edit or confirm cause of absence from work employee.
+
+# Employee
+* Add cause of absence from work (registration of hospital, vacations, business trips and other events).
