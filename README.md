@@ -3,16 +3,12 @@
 
 ## Capabilities
 
-### Common
 * Individual tracking time;
-* Edit employee tracking time;
-* API for entry entry/departure;
-* Indication of finding employees in office (possibility of filtering).
-
-### Administrator
-* Report for a specified period (day, week, month, year) with unloading in file;
-* Edit employee data (full name, identity document, location);
-* Add, edit or confirm cause of absence from work employee.
-
-### Employee
-* Add cause of absence from work (registration of hospital, vacations, business trips and other events).
+* Add or edit tracking time;
+* Add type for period (at work, hospital, vacations, business trips, etc.);
+* Edit employee data (full name, identity document, location, groups);
+* For each employee group can be set working time of the day (normal employee, trainee);
+* For each day can be set working time of the day (holidays, shortened days);
+* REST API for enter/exit;
+* Report for a specified period (day, week, month, year) with downloading it in file;
+* The administrator can check and confirmed periods.
