@@ -18,7 +18,7 @@
 A user with administrator rights.
 Its capabilities include:
 * View the list of employees;
-* Add, Edit Profile prosmatr and employee;
+* Add, edit and view employee profile;
 * Add, edit and delete accounting periods for the employee.
 
 ### Employee
