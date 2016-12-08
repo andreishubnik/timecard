@@ -2,7 +2,6 @@ package timecard.entities;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
-import javax.persistence.*;
 import java.util.Date;
 
 /**
@@ -10,17 +9,9 @@ import java.util.Date;
  *
  * Created by Shubnik on 29.11.2016.
  */
-@Entity
-@Table(
-    name="EMPLOYEE",
-    uniqueConstraints=@UniqueConstraint(columnNames={"login"})
-)
 public class Employee {
 
-    @Id
-    @GeneratedValue(strategy=GenerationType.AUTO)
     private long id;
-
     private String login;
     private String name;
     private String surname;
@@ -94,8 +85,5 @@ public class Employee {
     public void setBirthrate(Date birthrate) {
         this.birthrate = birthrate;
     }
-
-    @Deprecated
-    public Employee() { } // jpa only
 
 }
